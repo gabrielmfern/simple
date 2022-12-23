@@ -28,7 +28,7 @@ pub struct Window {
     // sdl graphics
     event_pump: sdl2::EventPump,
     timer_subsystem: sdl2::TimerSubsystem,
-    canvas: sdl2::render::Canvas<sdl2::video::Window>,
+    pub canvas: sdl2::render::Canvas<sdl2::video::Window>,
     foreground_color: pixels::Color,
     font: Option<Font>,
 
